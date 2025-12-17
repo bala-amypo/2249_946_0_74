@@ -9,7 +9,7 @@ import com.example.demo.entity.Student;
 import com.example.demo.repository.StudentRepository;
 
 @Service
-public class StudentServiceImpl implements StudentService {
+public class StudentImplementation implements StudentService {
 
     @Autowired
     StudentRepository repo;
